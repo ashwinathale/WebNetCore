@@ -17,7 +17,7 @@ steps:
   displayName: 'Use .NET Core SDK 2.0.7'
   inputs:
      packageType: sdk
-     version: 2.0.7
+     version: 2.0
      includePreviewVersions: true
 
 - task: Npm@1
