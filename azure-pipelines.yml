@@ -14,10 +14,10 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET Core SDK 2.0.7'
+  displayName: 'Use .NET Core SDK 2.1.x'
   inputs:
      packageType: sdk
-     version: 2.0.x
+     version: 2.1.x
      includePreviewVersions: true
 
 - task: Npm@1
